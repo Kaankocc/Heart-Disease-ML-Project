@@ -65,3 +65,51 @@ The following are the features we'll use to predict our target variable (heart d
 14. target - have disease or not (1=yes, 0=no) (= the predicted attribute)
 
 **Note:** No personal identifiable information (PPI) can be found in the dataset.
+
+## Running the Code
+
+To run the code, you'll need to set up a Python environment with the necessary dependencies. We recommend using Conda to manage your environment.
+
+### Setting up the Environment
+
+1. First, make sure you have [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) installed on your system.
+
+2. Clone or download this repository to your local machine.
+
+3. Navigate to the project directory in your terminal or command prompt.
+
+4. Create a new Conda environment using the provided `environment.yml` file. Run the following command:
+
+    ```
+    conda env create -f environment.yml
+    ```
+
+5. Activate the newly created environment:
+
+    ```
+    conda activate <env_name>
+    ```
+
+    Replace `<env_name>` with the name of the environment specified in the `environment.yml` file.
+
+### Running the Notebook
+
+Once the environment is set up, you can now run the Jupyter notebook containing the code and analysis.
+
+1. With the Conda environment activated, launch Jupyter Notebook:
+
+    ```
+    jupyter notebook
+    ```
+
+2. This will open a new browser window or tab with the Jupyter Notebook interface. Navigate to the directory where you saved the notebook file (`predicting_heart_disease.ipynb`) and open it by clicking on it.
+
+3. Follow the instructions and execute the cells in the notebook to reproduce the analysis and results.
+
+### Deactivating the Environment
+
+After you've finished running the notebook, you can deactivate the Conda environment:
+
+
+
+
